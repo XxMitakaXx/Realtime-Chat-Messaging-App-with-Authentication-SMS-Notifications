@@ -1,9 +1,9 @@
 import React from "react";
 import { StreamChat } from 'stream-chat';
 import { Chat } from 'stream-chat-react';
-import { Cockie } from 'universal-cookie';
+import { Cookie } from 'universal-cookie';
 
-import { ChannelContainer,  ChannelListContainer} from './components';
+import { ChannelContainer,  ChannelListContainer, ChannelSearch } from './components';
 import './App.css';
 
 const apiKey = '4xzwsvybe5f5';
