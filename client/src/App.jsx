@@ -4,6 +4,7 @@ import { Chat } from 'stream-chat-react';
 import { Cockie } from 'universal-cookie';
 
 import { ChannelContainer,  ChannelListContainer} from './components';
+import './App.css';
 
 const apiKey = '4xzwsvybe5f5';
 const client = StreamChat.getInstance(apiKey);
